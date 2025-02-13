@@ -9,14 +9,14 @@
 git clone https://github.com/posipan/nextjs-phpmailer.git
 ```
 ### 2.env.exampleをコピーして.envを作成する
-`/nextjs/`と`/php/mail/`にて.envを作成する。
+`/nextjs/`と`/php/`にて.envを作成する。
 
 * `/nextjs/`で実行
 ```bash
 cp .env.example .env
 ```
 
-* `/php/mail/`で実行
+* `/php/`で実行
 ```bash
 cp .env.example .env
 ```
