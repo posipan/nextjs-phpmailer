@@ -1,11 +1,11 @@
 <?php
-require_once '../assets/helper/helper.php';
+require_once './assets/helper/helper.php';
 
-require_once '../assets/libs/phpmailer/src/PHPMailer.php';
-require_once '../assets/libs/phpmailer/src/SMTP.php';
-require_once '../assets/libs/phpmailer/src/Exception.php';
+require_once './assets/libs/phpmailer/src/PHPMailer.php';
+require_once './assets/libs/phpmailer/src/SMTP.php';
+require_once './assets/libs/phpmailer/src/Exception.php';
 
-loadEnv(__DIR__ . '/../.env');
+loadEnv(__DIR__ . '/.env');
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;

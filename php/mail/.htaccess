@@ -1,0 +1,4 @@
+<FilesMatch "^(?!send-mail\.php$).*$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>

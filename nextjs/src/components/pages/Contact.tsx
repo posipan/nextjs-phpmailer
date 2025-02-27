@@ -20,11 +20,11 @@ const Contact = () => {
     handleSubmit,
     formState: { errors },
   } = useForm<FormDataTypes>({
-    defaultValues: {
-      name: 'テスト太郎',
-      email: 'example@example.com',
-      content: 'asdf',
-    },
+    // defaultValues: {
+    //   name: 'テスト太郎',
+    //   email: 'example@example.com',
+    //   content: 'asdf',
+    // },
   });
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
